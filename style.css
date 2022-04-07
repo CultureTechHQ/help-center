@@ -4958,3 +4958,30 @@ html[dir="rtl"] .notification-left-aligned {
 .dropdown-chevron-icon {
   vertical-align: middle;
 }
+
+/* Intro Title - Homepage */
+.intro-title {
+  position: relative;
+  top: 33%;
+  margin-bottom: 24px;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.1;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media (min-width: 768px) {
+ .intro-title {
+ font-size: 28px;
+ margin-bottom: 16px;
+ }
+}
+
+@media (min-width: 992px) {
+ .intro-title {
+ margin-bottom: 16px;
+ font-size: 32px;
+ }
+}
